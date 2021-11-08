@@ -11,7 +11,7 @@ Create a new table called `fruit_basket_item` that contains:
 
 Create a new table called `multi_fruit_basket` it should have an `id` and a `name` column.
 
-The `fruit_basket_item` table should have a `multi_fruit_basket_id` column that should be a foreign key to the `id` in the `fruit_basket_item` table.
+The `fruit_basket_item` table should have a `multi_fruit_basket_id` column that should be a foreign key to the `id` column in the `multi_fruit_basket` table.
 
 Create a Factory Functions called `MultiFruitBasket` that should be able to:
 
